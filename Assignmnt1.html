@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to CSS Assignment 1</title>
+    <style>
+      body {
+        margin: 32px;
+      }
+      h3 {
+        margin-bottom: 8px;
+      }
+      .likes {
+        line-height: 140%;
+        margin-top: 0;
+        padding-bottom: 12px;
+      }
+      #fav {
+        color: blue;
+      }
+      .drama {
+        color: rgba(219, 0, 109, 0.875);
+      }
+      .dislikes {
+        line-height: 140%;
+        margin-top: 0;
+      }
+      #height {
+        color: red;
+      }
+      .grades {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A List of my likes and dislikes</h1>
+    <h3>My Likes</h3>
+    <ol class="likes">
+      <li>I like shopping</li>
+      <li>
+        I like food
+        <ul style="list-style-type: square">
+          <li id="fav">Spaghetti is one of my favourite food.</li>
+        </ul>
+      </li>
+      <li>I like healthy friendships</li>
+      <li>I like reading</li>
+      <li>
+        I like movies
+        <ul style="list-style-type: square" class="drama">
+          <li>K-drama is my go-to movies anyday anytime</li>
+          <li>
+            Comedy, horror, sci-fi, thriller, mystery are the genres of movies I
+            like.
+          </li>
+        </ul>
+      </li>
+      <li>I like my me-time</li>
+    </ol>
+    <h3>My Dislikes</h3>
+    <ul class="dislikes">
+      <li>I dislike fake friendships</li>
+      <li>I dislike skipping meals</li>
+      <li>I dislike loud music</li>
+      <li>
+        I dislike heights
+        <ol type="A">
+          <li id="height">
+            Lifts, escalators, skyscrappers or being at the top of a tall
+            building makes me uncomfortable.
+          </li>
+        </ol>
+      </li>
+      <li>I dislike itchy skin</li>
+      <li>
+        I dislike getting a bad grade
+        <ol type="A" class="grades">
+          <li>I get sad</li>
+          <li>Also the feeling takes time to heal.</li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>
