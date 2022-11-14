@@ -1,0 +1,47 @@
+div {
+  width: 400px;
+  height: 600px;
+  max-width: 500%;
+  background-color: white;
+  margin: auto;
+  padding: 12px 34px;
+  border: 3px solid purple;
+}
+#first {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+.first-text {
+  text-align: center;
+  font-size: 14px;
+  color: green;
+  line-height: 140%;
+}
+#second {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  padding-top: 32px;
+}
+.second-text {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+  line-height: 140%;
+}
+#third {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+  padding-top: 32px;
+}
+.third-text {
+  text-align: center;
+  font-size: 14px;
+  color: blue;
+  line-height: 140%;
+}
